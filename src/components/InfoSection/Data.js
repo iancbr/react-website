@@ -31,18 +31,18 @@ export const homeObjTwo={
     darkText: true
 };
 export const homeObjThree={
-    id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited blablabla blbabla balblaba',
+    id: 'signup',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Join our Team',
+    headline: 'Creating blablabla blbabla balblaba',
     description: ' blalbalblabll babla b lb a bl albalblbbalb abalbablalbalblabll babla b lb a bl albalblbbalb abalbablalbalblabll babla b lb a bl albalblbbalb abalba',
     buttonLabel: 'Get started',
     imStart: false,
     img: require('../../images/svg-3.svg'),
     alt: 'Conversation',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 };
