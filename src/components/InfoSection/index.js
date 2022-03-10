@@ -13,6 +13,8 @@ BtnWrap,
 ImgWrap,
 Img
 } from './InfoElements'
+import img from '../../images/svg-1.svg'
+
 
 const InfoSection = ({
     lightBg, 
@@ -23,8 +25,7 @@ const InfoSection = ({
     headline, 
     darkText, 
     description, 
-    buttonLabel, 
-    img, 
+    buttonLabel,  
     alt,
     primary,
     dark,
@@ -49,7 +50,7 @@ const InfoSection = ({
                             offset={-80}
                             primary={primary ? 1 : 0}
                             dark={dark ? 1 : 0}
-                            dark2={dark2 ? 1:0}
+                            dark2={dark2 ? 1 : 0}
                             >{buttonLabel}</Button>
                         </BtnWrap>
                     </TextWrapper>
