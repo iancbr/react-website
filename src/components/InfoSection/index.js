@@ -13,7 +13,7 @@ BtnWrap,
 ImgWrap,
 Img
 } from './InfoElements'
-import img from '../../images/svg-1.svg'
+//import img from '../../images/svg-1.svg'
 
 
 const InfoSection = ({
@@ -27,6 +27,7 @@ const InfoSection = ({
     description, 
     buttonLabel,  
     alt,
+    img,
     primary,
     dark,
     dark2
